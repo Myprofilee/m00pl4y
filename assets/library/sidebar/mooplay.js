@@ -5,9 +5,9 @@ $(function () {
         bar += '<div class="header__content">';
 
             bar += '<nav class="header__nav">';
-                bar += '<a href="profile.html">Profile</a>';
+                bar += '<a href="/m/profile">Profile</a>';
                 bar += '<a href="/m/about">About</a>';
-                bar += '<a href="contacts.html">Contacts</a>';
+                bar += '<a href="/m/contacts">Contacts</a>';
             bar += '</nav>';
 
             bar += '<form action="#" class="header__search">';
