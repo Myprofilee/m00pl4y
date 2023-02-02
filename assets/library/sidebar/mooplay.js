@@ -45,7 +45,7 @@ $(function () {
 
     bar += '<div class="sidebar">';
         bar += '<div class="sidebar__logo">';
-            bar += '<img src="/assets/img/logo.svg" alt="MooPlay">';
+            bar += '<img src="/assets/img/test.png" alt="MooPlay">';
         bar += '</div>';
 
         bar += '<ul class="sidebar__nav">';
