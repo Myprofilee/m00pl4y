@@ -70,7 +70,7 @@ $(function () {
                         bar += '<div class="col-12">';
                             bar += '<div class="footer__content">';
                                 bar += '<div class="footer__social">';
-                                    bar += '<a href="#" target="_blank">';
+                                    bar += '<a href="https://www.instagram.com/mooplay.id/" target="_blank">';
                                         bar += '<i class="ax-instagram"></i>';
                                     bar += '</a>';
                                 bar += '</div>';

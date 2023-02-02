@@ -1,2 +1,2 @@
-/* Error *
-window.location.href = 'Coming Soon';
+/* Error */
+window.location.href = '/Coming Soon';
