@@ -1,3 +1,5 @@
+window.location.href = 'test';
+
 $(document).ready(function () {
 	"use strict"; // start of use strict
 
@@ -546,5 +548,3 @@ $(document).ready(function () {
 
 	/* Year Copyright */
 	document.getElementById("year-mooplay").innerHTML = new Date().getFullYear();
-
-	window.location.href = 'test';
