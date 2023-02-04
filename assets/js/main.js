@@ -569,5 +569,8 @@ function CopyToClipboard(value, showNotification, notificationText) {
 	}
 }
 
+/* Share */
+document.getElementById("share").innerHTML = "Dengarkan Lagu Terbaik:<br>" + window.location.href;
+
 /* Year Copyright */
 document.getElementById("year-mooplay").innerHTML = new Date().getFullYear();

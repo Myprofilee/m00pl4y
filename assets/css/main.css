@@ -1697,13 +1697,13 @@ body::-webkit-scrollbar-thumb {
     bottom: -14px;
     z-index: 2;
   }
-  .main__nav svg {
+  .main__nav i {
     width: 30px;
     height: auto;
     fill: #626f83;
     transition: fill 0.5s ease;
   }
-  .main__nav:hover svg {
+  .main__nav:hover i {
     fill: #0e2d49;
   }
   .main__nav--prev {
@@ -1712,11 +1712,17 @@ body::-webkit-scrollbar-thumb {
   .main__nav--next {
     right: -5px;
   }
+
+  .main__nav--events i {
+    font-size: 20px;
+    }
+
   .main__nav--hero {
     bottom: 15px;
   }
-  .main__nav--hero svg {
-    fill: #fff;
+  .main__nav--hero i {
+    font-size: 20px;
+    color: #fff;
   }
   .main__nav--hero.main__nav--prev {
     right: 95px;
@@ -1724,8 +1730,8 @@ body::-webkit-scrollbar-thumb {
   .main__nav--hero.main__nav--next {
     right: 65px;
   }
-  .main__nav--hero:hover svg {
-    fill: #f65656;
+  .main__nav--hero:hover i {
+    color: #f65656;
   }
   .main__filter {
     position: -webkit-sticky;
@@ -4732,14 +4738,8 @@ body::-webkit-scrollbar-thumb {
 .share__link:last-child {
   margin-right: 0;
 }
-.share__link--fb {
-  background-color: #3b5998;
-}
-.share__link--tw {
-  background-color: #55acee;
-}
-.share__link--vk {
-  background-color: #4c6c91;
+.share__link--wa {
+  background-color: #25D366;
 }
 .share__link:hover {
   background-color: #f65656;
