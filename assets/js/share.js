@@ -1,0 +1,1 @@
+import "./share/maroon-5/mooplay.js";

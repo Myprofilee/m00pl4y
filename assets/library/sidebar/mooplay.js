@@ -10,7 +10,8 @@ $(function () {
                 bar += '<a href="/m/contacts">Contacts</a>';
             bar += '</nav>';
 
-            bar += '<form action="#" class="header__search">';
+            bar += '<!-- Search --';
+            bar += '<div class="header__search">';
                 bar += '<input type="text" id="MooPlay" placeholder="Artist, track or podcast">';
                 bar += '<button type="button">';
                     bar += '<i class="ax-search"></i>';
@@ -18,13 +19,16 @@ $(function () {
                 bar += '<button type="button" class="close">';
                     bar += '<i class="ax-x"></i>';
                 bar += '</button>';
-            bar += '</form>';
+            bar += '</div>';
+            bar += '<!-- Search -->';
 
             bar += '<div class="header__actions">';
                 bar += '<div class="header__action header__action--search">';
+                bar += '<!-- Search --';
                     bar += '<button class="header__action-btn" type="button">';
                         bar += '<i class="ax-search"></i>';
                     bar += '</button>';
+                    bar += '<!-- Search -->';
                 bar += '</div>';
 
                 bar += '<div class="header__action header__action--signin">';
@@ -45,27 +49,27 @@ $(function () {
 
     bar += '<div class="sidebar">';
         bar += '<div class="sidebar__logo">';
-            bar += '<img src="/assets/img/test.png" alt="MooPlay">';
+            bar += '<img src="/assets/img/mooplay.png" alt="MooPlay">';
         bar += '</div>';
 
         bar += '<ul class="sidebar__nav">';
 
             bar += '<li class="sidebar__nav-item">';
-                bar += '<a href="/" class="sidebar__nav-link sidebar__nav-link--active">';
+                bar += '<a href="/" class="sidebar__nav-link sidebar__nav-link">';
                     bar += '<i class="ax-home"></i>';
                     bar += '<span>Home</span>';
                 bar += '</a>';
             bar += '</li>';
 
             bar += '<li class="sidebar__nav-item">';
-                bar += '<a href="/m/artists/" class="sidebar__nav-link">';
+                bar += '<a href="/m/artists" class="sidebar__nav-link">';
                     bar += '<i class="ax-users"></i>';
                     bar += '<span>Artists</span>';
                 bar += '</a>';
             bar += '</li>';
 
             bar += '<li class="sidebar__nav-item">';
-                bar += '<a href="releases.html" class="sidebar__nav-link">';
+                bar += '<a href="/m/releases" class="sidebar__nav-link">';
                     bar += '<i class="ax-music"></i>';
                     bar += '<span class="nav-text">Releases</span>';
                 bar += '</a>';
@@ -85,7 +89,7 @@ $(function () {
         bar += '<div class="player__content">';
             bar += '<span class="player__track"><b class="player__title">Welcome</b> – ';
             bar += '<span class="player__artist">MooPlay</span></span>';
-            bar += '<audio src="http://blast.volkovdesign.com/audio/12071151_epic-cinematic-trailer_by_audiopizza_preview.mp3" id="audio" controls></audio>';
+            bar += '<audio src="/assets/mp3/mooplay.mp3" id="audio" controls></audio>';
             bar += '</div>';
         bar += '</div>';
 
@@ -94,14 +98,13 @@ $(function () {
     bar += '</button>';
 
     bar += '<script src="/assets/js/bootstrap.bundle.min.js"></script>';
-    bar += '<script src="/assets/js/owl.carousel.min.js"></script>';
     bar += '<script src="/assets/js/jquery.magnific-popup.min.js"></script>';
     bar += '<script src="/assets/js/smooth-scrollbar.js"></script>';
     bar += '<script src="/assets/js/select2.min.js"></script>';
     bar += '<script src="/assets/js/slider-radio.js"></script>';
     bar += '<script src="/assets/js/jquery.inputmask.min.js"></script>';
     bar += '<script src="/assets/js/plyr.min.js"></script>';
-    bar += '<script src="/assets/js/main.js"></script>';
+    bar += '<script src="/assets/js/sidebar.js"></script>';
 
     $("#sidebar").html(bar);
 });

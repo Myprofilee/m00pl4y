@@ -2328,7 +2328,7 @@ body::-webkit-scrollbar-thumb {
 .album__stat span:last-child {
   margin-right: 0;
 }
-.album__stat svg {
+.album__stat i {
   width: 14px;
   height: auto;
   fill: #fff;
@@ -2350,7 +2350,7 @@ body::-webkit-scrollbar-thumb {
   .album__stat span:last-child {
     margin-right: 0;
   }
-  .album__stat svg {
+  .album__stat i {
     width: 16px;
   }
 }
@@ -2409,7 +2409,7 @@ body::-webkit-scrollbar-thumb {
 .release__stat span:last-child {
   margin-right: 0;
 }
-.release__stat svg {
+.release__stat i {
   width: 20px;
   height: auto;
   fill: #0e2d49;
@@ -6056,4 +6056,39 @@ body::-webkit-scrollbar-thumb {
   background: #0e2d49 !important;
   height: 4px !important;
   border-radius: 4px !important;
+}
+
+/* Share Album Notification */
+.copy-notification {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  width: auto;
+  margin-top: -30px;
+  margin-left: -85px;
+  display: none;
+  text-align:center;
+z-index: 9999;
+}
+
+@media (max-width: 400px) {
+  .copy-notification {
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    width: auto;
+    margin-top: -30px;
+    margin-left: -85px;
+    display: none;
+    text-align:center;
+  z-index: 9999;
+  }
 }

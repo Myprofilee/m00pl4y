@@ -6,7 +6,7 @@ $(function () {
             bar += '<div class="row">';
                 bar += '<div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-4 order-4 order-md-1 order-lg-4 order-xl-1">';
                     bar += '<div class="footer__logo">';
-                        bar += '<img src="/assets/img/test.png" alt="MooPlay">';
+                        bar += '<img src="/assets/img/mooplay.png" alt="MooPlay">';
                     bar += '</div>';
                     bar += '<p class="footer__tagline">';
                         bar += 'Download Aplikasi MooPlay Beserta<br>';

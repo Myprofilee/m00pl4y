@@ -1,16 +1,16 @@
 $(document).ready(function () {
     $("#MooPlay").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $(".mooplay-search div").filter(function () {
+        $(".mooplay-search li").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
 });
 
 $(document).ready(function () {
-    $("#myInput-2").on("keyup", function () {
+    $("#MooPlay-Artist").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $(".mooplay-search div").filter(function () {
+        $(".mooplay-search-artists li").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
