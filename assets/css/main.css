@@ -2914,7 +2914,7 @@ body::-webkit-scrollbar-thumb {
 }
 .single-item__title span {
   display: block;
-  width: 100%;
+  width: 200%;
   color: #626f83;
   font-size: 14px;
   line-height: 24px;
