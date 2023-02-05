@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.mooplay.my.id/sitemap.xml
