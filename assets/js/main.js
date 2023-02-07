@@ -2,6 +2,17 @@ $(document).ready(function () {
 	"use strict"; // start of use strict
 
 	/*==============================
+	Loader
+	==============================*/
+	var loader = document.querySelector(".loader")
+
+	window.addEventListener("load", vanish);
+
+	function vanish() {
+		loader.classList.add("disppear");
+	}
+
+	/*==============================
 	Home slider
 	==============================*/
 	$('.hero').owlCarousel({
