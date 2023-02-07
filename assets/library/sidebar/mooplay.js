@@ -32,7 +32,7 @@ $(function () {
                 bar += '</div>';
 
                 bar += '<div class="header__action header__action--signin">';
-                    bar += '<a class="header__action-btn" href="mooplay.apk">';
+                    bar += '<a class="header__action-btn" href="/apk">';
                         bar += '<span>Download App</span>';
                         bar += '<i class="ax-download"></i>';
                     bar += '</a>';
@@ -75,7 +75,7 @@ $(function () {
                 bar += '</a>';
             bar += '</li>';
 
-            bar += '<a href="mooplay.apk" class="main__download">Download App</a>';
+            bar += '<a href="/apk" class="main__download">Download App</a>';
 
 
         bar += '</ul>';

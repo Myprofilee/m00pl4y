@@ -1,27 +1,58 @@
-.app {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #4758D6;
+body {
+  min-height: 100%;
 }
-.app__counter {
-  margin-bottom: 40px;
-  color: #FFF;
-  font-size: 80px;
-  line-height: 1.2em;
+
+.outputs {
+  text-align: center;
+}
+
+.outputs [class*="col-"] {
+  padding: 1.5rem;
+}
+
+.outputs [class*="col-"] div:before {
+  display: block;
+  text-align: center;
+  font-weight: normal;
+}
+
+.outputs [class*="col-"] div {
   font-weight: bold;
 }
-.app__increment {
-  padding: 16px;
-  border: 0;
-  border-radius: 4px;
-  font-size: 36px;
-  line-height: 1.2em;
-  cursor: pointer;
+
+.outputs .total:before {
+  content: 'total hits to this page'
+}
+
+.outputs .redirections:before {
+  content: 'total redirections'
+}
+
+.outputs .percentage:before {
+  display: block;
+  content: 'which is'
+}
+
+.outputs .aiming:before {
+  display: block;
+  content: 'aiming for a split of'
+}
+
+.outputs .percentage:after,
+.outputs .aiming:after {
+  content: '%';
+  display: inline;
+}
+
+.updated {
+  animation: updated 300ms linear alternate 1;
+}
+
+@keyframes updated {
+  0% {
+    color: #505050;
+  }
+  100% {
+    color: #ddd;
+  }
 }
