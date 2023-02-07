@@ -1,7 +1,4 @@
-$(document).ready(function () {
-	"use strict"; // start of use strict
-
-	/*==============================
+/*==============================
 	Loader
 	==============================*/
 	var loader = document.querySelector(".loader")
@@ -12,6 +9,9 @@ $(document).ready(function () {
 		loader.classList.add("disppear");
 	}
 
+
+$(document).ready(function () {
+	"use strict"; // start of use strict
 	/*==============================
 	Home slider
 	==============================*/
