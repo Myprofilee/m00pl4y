@@ -71,7 +71,11 @@ $(function () {
                             bar += '<div class="footer__content">';
                                 bar += '<div class="footer__social">';
                                     bar += '<a href="https://www.instagram.com/mooplay.id/" target="_blank">';
-                                        bar += '<i class="ax-instagram"></i>';
+                                        bar += '<i class="ax-instagram-1"></i>';
+                                    bar += '</a>';
+
+                                    bar += '<a href="https://www.tiktok.com/@mooplay.id" target="_blank">';
+                                        bar += '<i class="ax-tiktok"></i>';
                                     bar += '</a>';
                                 bar += '</div>';
                                 bar += '<small class="footer__copyright">© <span id="year-mooplay"></span> MooPlay</small>';
